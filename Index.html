@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Eureka Fast Food</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #1a1a1a, #333333);
+      color: white;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: #000;
+    }
+    header img {
+      max-width: 150px;
+    }
+    h1 {
+      margin: 10px 0 0 0;
+      font-size: 2em;
+    }
+    .menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 20px;
+    }
+    .item {
+      background-color: #222;
+      border-radius: 12px;
+      overflow: hidden;
+      max-width: 300px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+      text-align: center;
+    }
+    .item img {
+      width: 100%;
+      height: auto;
+    }
+    .item h2 {
+      margin: 10px;
+      font-size: 1.2em;
+    }
+    .item p {
+      padding: 0 10px;
+    }
+    .price {
+      font-weight: bold;
+      color: #00ff99;
+    }
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background-color: #00cc66;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    .btn:hover {
+      background-color: #00ff99;
+    }
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      padding: 15px;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    .whatsapp img {
+      width: 30px;
+      height: 30px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #000;
+    }
+    footer a {
+      color: #00ff99;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="img/logo.png" alt="Eureka Logo">
+  <h1>EUREKA FAST FOOD</h1>
+</header>
+
+<div class="menu">
+  <div class="item">
+    <img src="img/mila XXL con papas.jpg" alt="Mila XXL con papas">
+    <h2>Mila XXL con papas</h2>
+    <p class="price">$16.000</p>
+    <a class="btn" href="https://www.mercadopago.com.ar/checkout/v1/redirect?preference-id=eureka.123">Pagar</a>
+  </div>
+  <div class="item">
+    <img src="img/mila especial con papas.jpg" alt="Milanesa Especial con papas">
+    <h2>Milanesa Especial con papas</h2>
+    <p class="price">$7.000</p>
+    <a class="btn" href="https://www.mercadopago.com.ar/checkout/v1/redirect?preference-id=eureka.123">Pagar</a>
+  </div>
+  <div class="item">
+    <img src="img/Burger Espacial.jpg" alt="Burger Espacial">
+    <h2>Burger Espacial</h2>
+    <p>Medallón 130g, tomate, lechuga, jamón, huevo, savora</p>
+    <p class="price">$5.500</p>
+    <a class="btn" href="https://www.mercadopago.com.ar/checkout/v1/redirect?preference-id=eureka.123">Pagar</a>
+  </div>
+  <div class="item">
+    <img src="img/Burger eureka.jpg" alt="Burger Eureka">
+    <h2>Burger Eureka</h2>
+    <p>Medallón 130g, tomate, lechuga, huevo, morrón, cebolla, cheddar, ketchup, mayo</p>
+    <p class="price">$6.500</p>
+    <a class="btn" href="https://www.mercadopago.com.ar/checkout/v1/redirect?preference-id=eureka.123">Pagar</a>
+  </div>
+  <div class="item">
+    <img src="img/Burger flow Cheddar.png" alt="Burger Flow Cheddar">
+    <h2>Burger Flow Cheddar</h2>
+    <p>Medallón 130g, tomate, lechuga, huevo, cheddar, ketchup, mayo</p>
+    <p class="price">$6.000</p>
+    <a class="btn" href="https://www.mercadopago.com.ar/checkout/v1/redirect?preference-id=eureka.123">Pagar</a>
+  </div>
+  <div class="item">
+    <img src="img/Burger Chaqueño.png" alt="Burger Chaqueña">
+    <h2>Burger Chaqueña</h2>
+    <p>Medallón 130g, tomate, lechuga, cheddar, salsa criolla, mayo</p>
+    <p class="price">$6.000</p>
+    <a class="btn" href="https://www.mercadopago.com.ar/checkout/v1/redirect?preference-id=eureka.123">Pagar</a>
+  </div>
+</div>
+
+<a class="whatsapp" href="https://wa.me/543804201731" target="_blank">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp">
+</a>
+
+<footer>
+  <p>Seguinos en <a href="https://www.instagram.com/eureka.lomoslr/" target="_blank">@eureka.lomoslr</a></p>
+</footer>
+
+</body>
+</html>
